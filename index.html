@@ -18,7 +18,74 @@
             <button onclick="mostrarEdad()">Calcular</button>
         </form>
     </div>
-    
+
+    <div id="switch">
+        <h2>Switch</h2>
+        <form>
+            <label>
+            <input type="radio" name="opciones" value="1">
+            Opción 1
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="opciones" value="2">
+                Opción 2
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="opciones" value="3">
+                Opción 3
+            </label>
+            <br>
+            <button onclick="respuestaCorrecta()">Validar</button>
+    </form>
+    </div>
+    <div id="try">
+        <h2>Try-Catch</h2>
+        <h3>Intente hacer una division entre cero</h3>
+        <form action="">
+            <label for="">
+                <input type="text" name="" id="numero1">
+            </label>
+            <label for=""> / </label>
+            <label for="">
+                <input type="text" name="" id="numero2">
+            </label>
+            <br>
+            <button onclick="dividir()">Dividir</button>
+        </form>
+    </div>
+    <div id="ciclos">
+        <h2>Ciclos</h2>
+        <form action="" id="formulario-for">
+            <label for="">
+                <input type="text" name="" id="cantidad">¿Hasta que número?
+            </label>
+            <br>
+            <button onclick="imprimirNumeros(event)">Imprimir Números</button>
+        </form>
+    </div>
+    <div id="comparacion">
+        <h2>Comparación</h2>
+        <form action="">
+            <label for="">
+                <input type="text" name="" id="palabra1">Palabra 1
+            </label>
+            <br>
+            <label for="">
+                <input type="text" name="" id="palabra2"> Palabra 2
+            </label>
+            <br>
+            <button onclick="compararPalabras(event)">Comparar palabras</button>
+        </form>
+    </div>
+    <div id="Date">
+        <h2>Date</h2>
+        <form action="" id="Fecha">
+            <button onclick="imprimirFecha(event)">Imprimir resultados</button>
+            <br>
+        </form>
+    </div>
     <!--Archivo JavaScript-->
     <script src="js/ejemplos.js"></script>
 </body>
